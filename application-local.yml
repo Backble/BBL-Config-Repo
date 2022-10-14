@@ -1,5 +1,5 @@
 jwt:
-  description: Hi, Local
+  description: Hi, Local Member
   secret: ADBF#!@$DAOGEB@N!%^#$%$#*@K@!GDS<M
 
 spring:
