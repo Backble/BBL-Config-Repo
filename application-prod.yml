@@ -1,0 +1,3 @@
+jwt:
+  description: Hi, Prod
+  secret: token_prod

@@ -1,0 +1,3 @@
+jwt:
+  description: Hi, Application
+  secret: token_application
