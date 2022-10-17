@@ -1,6 +1,6 @@
 jwt:
   description: Hi, Local
-  secret: ADBF#!@$DAOGEB@N!%^#$%$#*@K@!GDS<M
+  secret: localkey
 
 spring:
   datasource:
