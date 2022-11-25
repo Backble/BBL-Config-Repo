@@ -1,15 +1,15 @@
 
 jwt:
   description: Hi, Dev Yaml Update
-  secret: '{cipher}AQBsA2+sNcChts+aGGndvqci3D9OeIEE+a4Jj7dAWKFZFXaYr8KY+WC6WE3GN7DgeJqcN9tjoUhEOY94BxmgE3W/suBIwwTThpYkN3DyX7lNSi+g3OSx5gjWFEk7S6HfaZ3G34iFJmCeQ0Et12bylOlWpJBJjWqGnLD54JJ2bOTX6xjkDOx9H+wlI81WNu6f9ftNY77JCxBEz1Kj7mLOf6k7ro5UyBayFm3dIQjQUzru8476yhNxUwiv5FozvXpFlnfp76r5DhoA+Z45JuDjjLLSRJQla8i+WmzoUYJYXtD5DYe3GWJynd43FhQ4i1Aln0mNFpz9IgRvN8vGw+jvlN7l87qaJMzLRiVrnrqwm2bEVKI6CPKmnH6+eed1PthvHRrETUm2DkX4vrARO3QZvnpPAeKce7zd6DL21qH2aajvMA=='
+  secret: localjwtkey
 
 spring:
   datasource:
     hikari:
       driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://popool-database.c0i6viqyscex.ap-northeast-2.rds.amazonaws.com:3306/bbl_member?useSSL=false&verifyServerCertificate=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&characterEncoding=UTF-8
-    username: admin
-    password: '{cipher}AQCPqc0Qt58JOqckJoFg5Tv98q2kB6eGOH2kj3BDpgEpUJA1h2q1gEI1t/p32QWQEOySw5Y0ZEWSSw6j9u9mpxdpSyl73UnsYpbCVlRkCCnUisj8ID+AT7iJq2jCvZi98qdNrS9LCoB05rf0v3rLAl2LEiPo6Pc8DsBT9FZWOZo9gFGDyoKBNwb9QbxiMCSu258E4pPAjj7sVjGqbkniAMtznfEqh4URLC1N9RLaF0TPaIc6Kf1gftJKJX/wVebo/ffixEXF1gUa1dutAErDCyN35i7HsgHb988Y5oNJmulyOHyZD12VZsDVRF53c1g4M+W0pVL/Uq3qu6JeEgfqRoVFlTX/lyS1Ktrlnb1saL+Wrvpf6zKWhJwQUoDL+/MhVxk='
+    url: jdbc:mysql://127.0.0.1:3306/bbl_member?useSSL=false&verifyServerCertificate=false&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&characterEncoding=UTF-8
+    username: root
+    password: password
 
   jpa:
     hibernate:
